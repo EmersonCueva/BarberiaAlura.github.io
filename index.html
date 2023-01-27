@@ -1,0 +1,96 @@
+<!DOCTYPE html> <!--Para que el navegador sepa que se trata de HTML5-->
+
+<html lang="es"> <!--Idioma de la pagina-->
+
+    <head> <!--Etiqueta informativa-->
+        <meta charset="UTF-8"> <!--Diccionario a utilizar, ya trae varios lenguajes del mundo, reconoce caracteres especiales-->
+        <meta name="viewport" content="width=device-width"> <!--Responsivo-->
+        <title>Barberia Alura</title> <!--Cambia el titulo de la pesta;a de la pagina-->
+
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css"> <!--Vincular el otro archivo con este-->
+        <!--Tipografia-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    </head>
+
+    <body> <!--Todo el cuerpo de la pagina-->
+        <!--Encabezado-->
+        <header>
+            <div class="caja">
+                <h1> <img src="imagenes/logo.png"> </h1>
+                <nav>  
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="productos.html">Productos</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul> <!--Etiqueta <a> crea un vinculo hacia otra pagina-->
+                </nav>  
+            </div>
+        </header>
+
+        <img class="banner" src="banner/banner.jpg">
+
+        <main>
+            <!-- <p>
+                Parrafo Ejemplo
+            </p>-->
+            
+            <section class="principal"> <!--Section es para dividir el codigo en secciones-->
+                <h2 class="titulo-principal">Sobre la Barbería Alura</h2>
+               
+                <img class="utensilios" src="imagenes/utensilios.jpg" alt="  Utensilios de un barbero">
+
+                <p> Ubicada en el corazón de la ciudad, la <strong>Barbería Alura </strong> para el mercado lo que hay de mejor para su cabello y barba. Fundada en 2020, la Barbería Alura ya es destaque en la ciudad y conquista nuevos clientes diariamente. </p>
+            
+                <p id = "mision"><em> Nuestra misión es: <strong>"Proporcionar autoestima y calidad de vida a nuestros clientes"</strong>.</em></p>
+            
+                <p>Ofrecemos profesionales experimentados que están constantemente observando los cambios y movimiento en el mundo de la moda, para así ofrecer a nuestros clientes las últimas tendencias. El atendimiento posee un padrón de excelencia y agilidad, garantizando calidad y satisfacción de nuestros clientes. </p>
+            </section>
+            
+            <!-- Etiqueta <Strong> sirve para poner la letra en negrita-->
+            <!-- Etiqueta <em> sirve para poner el texto en italico-->
+
+            <section class="mapa">
+                <h3 class="titulo-principal"> Nuestra ubicacion</h3>
+                <p> Nuestro establecimiento esta ubicado en el corazon de la ciudad</p>
+                <!--iframe es una etiqueta para incorporar ventanas-->
+                <div class="mapa-contenido">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.4079775627606!2d-46.63682678542145!3d-23.589697068523538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5bd9bb943bf5%3A0x6f642995c970f0fe!2scaelum%20alura!5e0!3m2!1ses!2ssv!4v1673828792956!5m2!1ses!2ssv" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </section>
+
+            <section class= "diferenciales">
+
+                <h3 class="titulo-principal">Diferenciales </h3>
+
+                <div class="contenido-diferenciales">
+                    <ul class="lista-diferenciales"> <!--Etiqueta para lista no ordenada, etiqueta de bloque-->
+                        <!--li es para demostrar que es un item de la lista-->
+                        <li class="items">Atencion personalizada a los clientes</li>
+                        <li class="items">Espacio diferenciado</li>
+                        <li class="items">Localizacion</li>
+                        <li class="items">Profesionales calificados </li>
+                        <li class="items">Puntualidad </li>
+                        <li class="items">Limpieza</li>
+
+                    </ul><img src="diferenciales/diferenciales.jpg" class="imagen-diferenciales">
+                </div>
+
+                
+                <div class="video">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/wcVVXUV0YUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+
+            </section>
+
+        </main>
+        <footer>
+            <img src="imagenes/logo-blanco.png">
+            <p class="copyright">&copy Copyright Barberia Alura - 2020</p>
+
+        </footer>
+    </body>
+    
+</html>

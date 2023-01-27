@@ -1,0 +1,51 @@
+.tituloPrincipal{
+    padding-left: 30px; /*espaciamiento hacia la izquierda*/
+}
+
+.banner{
+    width: 100%;
+}
+
+.principal{
+    background: #CCCCCC; /* Color de fondo*/
+    padding: 20px;
+}
+
+.tituloCentralizado{
+    text-align: center;  
+}
+
+p{ 
+    text-align: center; /* Alinear texto*/
+} 
+
+#mision{ /*Por ser identificador id se pone el numeral*/
+    font-size: 20px;
+}
+
+em strong { /*Referenciar especificamente a la combinacion de etiquetas*/
+    color: red;
+}
+
+.diferenciales {
+    background: #FFFFFF;
+    padding: 30px;
+}
+
+.items {/* el punto es para referenciar una clase y seguida del nombre*/
+    font-style: italic;
+}
+
+ul{
+    display: inline-block; /*Que la lista solo ocupe el espacion de su contenido */
+    vertical-align: top; /*para alinear el texto en la parte superior*/
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imagenDiferenciales{
+    width: 50%;
+}
+
+/*id solo se puede usar una vez*/
+/*Class puede ser reutilizado para variedad de llaves en el codigo*/
